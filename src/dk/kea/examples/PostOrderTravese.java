@@ -3,18 +3,18 @@ package dk.kea.examples;
 import dk.kea.ExampleInterface;
 import dk.kea.examples.logic.BinaryTree;
 
-public class BinaryTreeExample implements ExampleInterface
+public class PostOrderTravese implements ExampleInterface
 {
     @Override
     public String getDescription()
     {
-        return "This example will demo a binary tree";
+        return "This example will demonstrate post order traverse";
     }
 
     @Override
     public String getName()
     {
-        return "Binary tree";
+        return "Post order traverse";
     }
 
     @Override
@@ -33,6 +33,8 @@ public class BinaryTreeExample implements ExampleInterface
         theTree.addNode(75, "Sales Manager");
 
         theTree.addNode(85, "Salesman 1");
+
+        theTree.postOrderTraverseTree(theTree.root);
 
         // Find the node with key 75
 

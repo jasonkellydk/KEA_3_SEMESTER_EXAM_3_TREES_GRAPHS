@@ -11,6 +11,9 @@ public class ExampleNavigator
      */
     public ExampleInterface[] objectArray = {
             new BinaryTreeExample(),
+            new InOrderTraverseExample(),
+            new PostOrderTravese(),
+            new PreorderTraverseTree()
     };
 
     /**
@@ -42,7 +45,7 @@ public class ExampleNavigator
 
         while (true) {
             try {
-                if (dots == 6) {
+                if (dots == 3) {
                     break;
                 }
 

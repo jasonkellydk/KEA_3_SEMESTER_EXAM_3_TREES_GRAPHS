@@ -2,7 +2,7 @@ package dk.kea.examples.logic;
 
 public class BinaryTree
 {
-    Node root;
+    public Node root;
 
     public void addNode(int key, String name)
     {
